@@ -1,0 +1,26 @@
+{
+	"version":"V_1",
+	"dir":{
+		"views"   : "./views/",
+		"routes"  : "./routes/",
+		"public"  : "./public/",
+		"locales" : "./locales/",
+		"websites": "./websites/"
+	},
+	"port":"3001",
+	"prd_host":{
+		"cn"     : "http://cn.prd.real.com",
+		"uk"     : "http://uk.prd.real.com",
+		"nodejs" : "http://nodejs.prd.real.com"
+	},
+	"dev_host":{
+		"cn"     : "http://cn.dev.real.com",
+		"uk"     : "http://uk.dev.real.com",
+		"nodejs" : "http://nodejs.dev.real.com"
+	},
+	"cdn_host":  {
+		"cn"	 : "http://cn.static.real.com",
+		"uk"	 : "http://uk.static.real.com",
+		"nodejs" : "http://nodejs.static.real.com"
+	}
+}
